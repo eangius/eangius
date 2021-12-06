@@ -1,5 +1,5 @@
-### Hello There 👋
+### 👋 Hello There 
 
-- Passionate about ML :robot: & data science :bar_chart:
-- :earth_americas: I love playing with maps
-- Currently working on :sparkles:_special_:sparkles: project combining both.
+- :robot: I am passionate about building machine learning systems
+- :earth_americas: I always love playing with GIS maps
+- :chart_with_upwards_trend: I enjoy research & getting data sciency insights
