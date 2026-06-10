@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img" aria-label="Project thumbnail placeholder">
+  <rect width="400" height="240" fill="#f3f3f3"/>
+  <g fill="none" stroke="#6d9eeb" stroke-width="3" opacity="0.6">
+    <rect x="40" y="40" width="320" height="160" rx="8"/>
+    <path d="M40 160l80-60 60 40 80-70 80 60v30H40z" fill="#6d9eeb" opacity="0.25" stroke="none"/>
+    <circle cx="120" cy="90" r="16"/>
+  </g>
+</svg>

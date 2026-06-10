@@ -1,0 +1,36 @@
+---
+import { getRelativeLocaleUrl } from "astro:i18n";
+import { languages, defaultLang } from "../../i18n/ui";
+import { useTranslations, getLocale } from "../../i18n/utils";
+
+const lang = getLocale(Astro.currentLocale);
+const t = useTranslations(lang);
+
+// Strip the current locale prefix (if any) so we can rebuild the URL for each locale.
+let path = Astro.url.pathname;
+if (lang !== defaultLang) {
+  path = path.replace(`/${lang}`, "") || "/";
+}
+
+const options = Object.entries(languages).map(([code, label]) => ({
+  code,
+  label,
+  href: getRelativeLocaleUrl(code, path),
+}));
+---
+
+{/* Only one locale today; more (es/fr) appear here automatically once added to src/i18n/ui.ts */}
+<nav aria-label={t("language.label")} class="flex items-center gap-1 text-sm">
+  {
+    options.map(({ code, label, href }) => (
+      <a
+        href={href}
+        aria-current={code === lang ? "true" : undefined}
+        class="rounded-md px-2 py-1 font-semibold uppercase text-text-muted transition-colors aria-[current=true]:text-accent hover:text-accent"
+        title={label}
+      >
+        {code}
+      </a>
+    ))
+  }
+</nav>

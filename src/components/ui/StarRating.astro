@@ -1,0 +1,24 @@
+---
+interface Props {
+  level: 1 | 2 | 3;
+  max?: number;
+}
+
+const { level, max = 3 } = Astro.props;
+const stars = Array.from({ length: max }, (_, i) => i < level);
+---
+
+<span class="inline-flex gap-0.5" aria-label={`Skill level: ${level} of ${max}`}>
+  {
+    stars.map((filled) => (
+      <svg
+        class={filled ? "h-3.5 w-3.5 fill-accent" : "h-3.5 w-3.5 fill-none stroke-border"}
+        viewBox="0 0 20 20"
+        stroke-width="1.5"
+        aria-hidden="true"
+      >
+        <path d="M10 1.5l2.6 5.27 5.82.85-4.21 4.1.99 5.79L10 14.9l-5.2 2.61.99-5.79-4.21-4.1 5.82-.85L10 1.5z" />
+      </svg>
+    ))
+  }
+</span>

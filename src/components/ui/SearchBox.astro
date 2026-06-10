@@ -1,0 +1,37 @@
+---
+import { useTranslations, getLocale } from "../../i18n/utils";
+
+const t = useTranslations(getLocale(Astro.currentLocale));
+---
+
+{/*
+  Pagefind generates /pagefind/* during the postbuild step (see package.json).
+  These files don't exist in `astro dev`, so the search box is inert until you
+  run `npm run build`.
+*/}
+<div id="search" class="pagefind-search w-full max-w-xs"></div>
+<link rel="stylesheet" href="/pagefind/pagefind-ui.css" />
+<script is:inline src="/pagefind/pagefind-ui.js"></script>
+<script is:inline define:vars={{ placeholder: t("search.placeholder") }}>
+  // @ts-nocheck
+  window.addEventListener("DOMContentLoaded", () => {
+    if (typeof window.PagefindUI === "function") {
+      new window.PagefindUI({
+        element: "#search",
+        showSubResults: true,
+        translations: { placeholder },
+      });
+    }
+  });
+</script>
+
+<style>
+  /* Make the Pagefind UI follow our theme tokens */
+  .pagefind-search {
+    --pagefind-ui-primary: var(--color-accent);
+    --pagefind-ui-text: var(--color-text);
+    --pagefind-ui-background: var(--color-bg);
+    --pagefind-ui-border: var(--color-border);
+    --pagefind-ui-font: var(--font-sans);
+  }
+</style>
