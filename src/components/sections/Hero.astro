@@ -2,6 +2,7 @@
 import { Image } from "astro:assets";
 import { useTranslations, getLocale } from "../../i18n/utils";
 import profileImage from "../../assets/images/profile.jpg";
+import { meetingUrl } from "../../data/links";
 
 const t = useTranslations(getLocale(Astro.currentLocale));
 ---
@@ -33,7 +34,9 @@ const t = useTranslations(getLocale(Astro.currentLocale));
 
       <div class="mt-6 flex flex-wrap justify-center gap-4 md:justify-start">
         <a
-          href="#contact"
+          href={meetingUrl}
+          target="_blank"
+          rel="noreferrer"
           class="rounded-md bg-accent px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-accent-hover"
         >
           {t("hero.cta.contact")}
