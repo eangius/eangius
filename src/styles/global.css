@@ -22,6 +22,9 @@
   --color-text-subtle: #8a8a8a;
   --color-accent: #6d9eeb;
   --color-accent-hover: #4f7fd6;
+
+  /* Orange accent (matches bjornmelin.io's Data Science skill tags) */
+  --color-orange-500: #fe6e00;
 }
 
 /* Dark theme overrides — same accent, inverted neutrals with a deep navy "map" feel */

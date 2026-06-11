@@ -16,7 +16,7 @@ npm install
 npm run dev
 ```
 
-This starts a local dev server (default `http://localhost:4321`) with live reload.
+This starts a local dev server (default <http://localhost:4321>) with live reload.
 
 ## Adding content
 

@@ -1,5 +1,7 @@
 ---
+import { Image } from "astro:assets";
 import { useTranslations, getLocale } from "../../i18n/utils";
+import profileImage from "../../assets/images/profile.jpg";
 
 const t = useTranslations(getLocale(Astro.currentLocale));
 ---
@@ -16,16 +18,15 @@ const t = useTranslations(getLocale(Astro.currentLocale));
   <div
     class="relative mx-auto flex max-w-5xl flex-col items-center gap-8 px-4 py-20 text-center sm:py-28 md:flex-row md:text-left"
   >
-    <img
-      src="/images/profile.jpg"
+    <Image
+      src={profileImage}
       alt={t("hero.name")}
-      width="160"
-      height="160"
+      width={160}
+      height={160}
       class="h-40 w-40 shrink-0 rounded-full object-cover"
     />
     <div>
-      <p class="text-lg font-semibold text-text-muted">{t("hero.greeting")}</p>
-      <h1 class="mt-1 text-4xl font-bold text-accent sm:text-5xl">
+      <h1 class="text-4xl font-bold text-accent sm:text-5xl">
         {t("hero.name")}
       </h1>
       <p class="mt-2 text-xl text-text-muted">{t("hero.title")}</p>

@@ -13,18 +13,16 @@ export const ui = {
     "nav.projects": "Projects",
     "nav.contact": "Contact",
 
-    "hero.greeting": "Hi, I'm",
     "hero.name": "Elian Angius",
-    "hero.title": "Data Science & ML Lead",
+    "hero.title": "Applied Data Science & Machine Learning Lead",
     "hero.cta.contact": "Get in Touch",
     "hero.cta.projects": "View Projects",
 
-    "skills.title": "Skills & Technologies",
-    "skills.subtitle": "Placeholder skill set — to be refined.",
+    "skills.title": "Expertise",
+    "skills.subtitle": "Skills & technologies I specialize in.",
 
     "projects.title": "Projects",
-    "projects.subtitle": "A selection of work — placeholders for now.",
-    "projects.viewProject": "View Project",
+    "projects.subtitle": "A selection of my works, experiments & prototypes.",
     "projects.viewRepo": "Source",
     "projects.viewDemo": "Live Demo",
 
