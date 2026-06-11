@@ -6,7 +6,7 @@ tags: ["Python", "Machine Learning", "GIS"]
 repoUrl: "https://github.com/eangius"
 date: 2026-01-01
 order: 1
-draft: false
+draft: true
 ---
 
 ## Overview
