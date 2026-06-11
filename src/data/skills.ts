@@ -1,4 +1,4 @@
-// Placeholder skills/technologies data — refine categories & items later.
+// Skills & technologies showcased in the Skills section.
 import type { IconName } from "../components/ui/Icon.astro";
 
 export type SkillCategoryColor = "purple" | "blue" | "green" | "orange";
@@ -15,24 +15,50 @@ export const skillCategories: SkillCategory[] = [
     title: "Data Science & ML",
     icon: "brain",
     color: "purple",
-    skills: ["Predictive Modeling", "Forecasting", "Deep Learning", "Model Explainability", "Agentic Systems"],
+    skills: [
+        "Predictive Modeling",
+        "Forecasting",
+        "Deep Learning",
+        "Agentic Systems",
+        "Vector Embeddings",
+        "Information Retrieval",
+        "Model Explainability",
+    ],
   },
   {
     title: "Location Intelligence",
     icon: "map-pin",
     color: "orange",
-    skills: ["Geospatial Analysis", "Kernel Density Estimation", "Record Linkage", "Routing & O/D Matrices"],
+    skills: [
+      "Geospatial Mapping",
+      "Kernel Density Heatmaps",
+      "Search & Routing",
+      "Demographic Modeling",
+      "Knowledge Graphs",
+    ],
   },
   {
-    title: "Programming",
-    icon: "code",
+    title: "Applied Research",
+    icon: "flask-conical",
     color: "green",
-    skills: ["Python", "SQL", "TypeScript", "Scala"],
+    skills: [
+        "Exploratory Analysis",
+        "Rapid Prototyping",
+        "System Design",
+        "Simulation",
+        "A/B Testing"
+    ],
   },
   {
-    title: "Cloud & MLOps",
-    icon: "cloud",
+    title: "Leadership",
+    icon: "users",
     color: "blue",
-    skills: ["AWS", "Docker", "CI/CD", "Spark / Databricks"],
+    skills: [
+        "Requirements Specs",
+      "Agile Roadmapping",
+      "Cross-Functional Collab",
+      "Product Demos",
+      "Team Mentoring",
+    ],
   },
 ];
