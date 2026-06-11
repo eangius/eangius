@@ -1,6 +1,6 @@
 ---
 import { getRelativeLocaleUrl } from "astro:i18n";
-import { languages, defaultLang } from "../../i18n/ui";
+import { languages, defaultLang } from "../../i18n/translations";
 import { useTranslations, getLocale } from "../../i18n/utils";
 
 const lang = getLocale(Astro.currentLocale);
@@ -19,7 +19,7 @@ const options = Object.entries(languages).map(([code, label]) => ({
 }));
 ---
 
-{/* Only one locale today; more (es/fr) appear here automatically once added to src/i18n/ui.ts */}
+{/* Only one locale today; more (es/fr) appear here automatically once added to src/i18n/translations.ts */}
 <nav aria-label={t("language.label")} class="flex items-center gap-1 text-sm">
   {
     options.map(({ code, label, href }) => (

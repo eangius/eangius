@@ -1,7 +1,7 @@
 # build
-dist/                # build outputs
-.astro/              # generated types
-public/*.ico         # generated icons from svg
+dist/
+.astro/
+public/*.ico
 
 # dependencies
 node_modules/
@@ -10,8 +10,8 @@ node_modules/
 *.log
 
 # environment
-.env
-.env.production
+.claude
+.env*
 
 # OS specifics
 .DS_Store

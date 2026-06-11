@@ -1,5 +1,5 @@
-// Display names for languages with a translation table below.
-// Add 'es' / 'fr' here (and to `astro.config.mjs` -> i18n.locales) once translated.
+// ABOUT: internationalized multilingual text string mappings.
+// Add language codes here (& to `astro.config.mjs` -> i18n.locales) once translated.
 export const languages = {
   en: "English",
 } as const;
@@ -32,7 +32,7 @@ export const ui = {
 
     "language.label": "Language",
 
-    "footer.rights": "All rights reserved.",
+    "footer.rights": "All rights reserved",
 
     "404.title": "Page not found",
     "404.message": "The page you're looking for doesn't exist or has moved.",

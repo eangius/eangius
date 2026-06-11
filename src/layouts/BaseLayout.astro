@@ -16,7 +16,7 @@ const defaultDescription =
   "Portfolio of Elian Angius — Data Science & ML Lead. Projects, skills & case studies in machine learning, location intelligence and data engineering.";
 
 const { title, description = defaultDescription } = Astro.props;
-const pageTitle = title ? `${title} | ${siteName}` : `${siteName} — Data Science & ML Lead`;
+const pageTitle = title ? `${title} | ${siteName}` : siteName;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
