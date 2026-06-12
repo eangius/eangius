@@ -2,6 +2,31 @@
 
 Personal portfolio site built with [Astro](https://astro.build).
 
+## Project Structure
+
+```
+.
+├── public/                  # static as-is files served at the site
+├── scripts/                 # one-off or build-time transformations
+├── src/
+│   ├── assets/              # images & resources imported into components, optimized by build process
+│   ├── components/
+│   │   ├── layout/          # page-wide structural pieces (Header, Footer)
+│   │   ├── sections/        # page sections (Hero, Projects, Skills, ...)
+│   │   └── ui/              # small reusable UI widgets (Icon, ThemeToggle, LanguageSwitcher, ...)
+│   ├── content/
+│   │   └── projects/        # one per project case study files
+│   ├── content.config.ts    # content metadata schema definitions
+│   ├── data/                # typed static data (skills, links, ...)
+│   ├── i18n/                # translation strings & locale helpers
+│   ├── layouts/             # shared page layouts (BaseLayout, ProjectLayout)
+│   ├── pages/               # file-based routes (index, 404, projects/[slug])
+│   └── styles/              # look & feel CSS
+├── astro.config.mjs         # astro configuration
+├── tsconfig.json            # typeScript configuration
+└── package.json             # software dependencies
+```
+
 ## Setup
 
 Requires Node.js >= 22.12.0.
@@ -24,8 +49,8 @@ Projects are managed as Markdown files under `src/content/projects/`. To add a n
 project, create a new `.md` file in that folder using `placeholder-project.md` as a
 template, with the following frontmatter:
 
-| Field      | Required | Description                                  |
-| ---------- | -------- | --------------------------------------------- |
+| Field      | Required | Description                                    |
+| ---------- | -------- |------------------------------------------------|
 | `title`    | yes      | Project title                                  |
 | `summary`  | yes      | One or two sentence summary                    |
 | `thumbnail`| no       | Path to an image under `public/`               |
