@@ -1,6 +1,6 @@
 ---
 title: "Neighbourhood Vibes"
-summary: "Quantifies the sentiment & themes from streaming social media, news & local events."
+summary: "Measure the local sentiment & interests from streaming social media, news & events."
 tags: ["Simulation", "NLP", "LLM", "Geospatial"]
 order: 4
 draft: false
@@ -30,7 +30,10 @@ neighbourhoods remain comparable.
 
 ## Approach
 
-- Streamed & geotagged social media, local news & event data continuously
+- Streamed social media, local news & event data continuously, resolving each
+  item's noisy, ambiguous location reference with a
+  [probabilistic geocoder](/projects/probabilistic-geocoder/) into a
+  confidence-weighted area
 - Computed a sentiment score per area/period, ranging from **-1** (negative)
   through **0** (neutral) to **+1** (positive)
 - Extracted the dominant topics of interest alongside each area's sentiment

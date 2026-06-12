@@ -1,7 +1,7 @@
 ---
 title: "Safer Routing"
-summary: "Service navigating pedestrians across a city along the safest path — not just the shortest."
-tags: ["Simulation", "Geospatial", "Optimization"]
+summary: "Service navigating pedestrians across a city through the safest path — not just the shortest."
+tags: ["REST", "Geospatial", "Optimization"]
 order: 3
 draft: false
 ---
@@ -26,6 +26,8 @@ meaningfully safer route.
   search space
 - Validating that routes are measurably safer across an entire city, not
   just on a few hand-picked examples
+- Risk analysis weather to take the shortest route & minimize exposure of a high risk
+  vs deviating slightly for longer time through lower risk paths.
 
 ## Approach
 
