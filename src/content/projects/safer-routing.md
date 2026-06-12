@@ -1,6 +1,6 @@
 ---
 title: "Safer Routing"
-summary: "Service navigating pedestrians across a city through the safest path — not just the shortest."
+summary: "Navigating pedestrians across a city through the safest path — not just the shortest."
 thumbnail: "/images/projects/safer-routing.svg"
 tags: ["REST", "Geospatial", "Optimization"]
 order: 3
@@ -48,3 +48,4 @@ meaningfully safer route.
 - Routes scored **2x safer** (custom metric) than the shortest path,
   on average
 - Average detour overhead of **less than 100m** versus the shortest route
+- Avoided bridges, tunnels alleys where possible. Preferred busy streets with open shops.
