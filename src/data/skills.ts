@@ -1,7 +1,7 @@
 // Skills & technologies showcased in the Skills section.
 import type { IconName } from "../components/ui/Icon.astro";
 
-export type SkillCategoryColor = "purple" | "blue" | "green" | "orange";
+export type SkillCategoryColor = "purple" | "red" | "green" | "orange";
 
 export interface SkillCategory {
   title: string;
@@ -52,7 +52,7 @@ export const skillCategories: SkillCategory[] = [
   {
     title: "Leadership",
     icon: "users",
-    color: "blue",
+    color: "red",
     skills: [
         "Requirements Specs",
       "Agile Roadmapping",
