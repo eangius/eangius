@@ -1,6 +1,7 @@
 ---
 title: "Neighbourhood Vibes"
 summary: "Measure the local sentiment & interests from streaming social media, news & events."
+thumbnail: "/images/projects/neighbourhood-vibes.svg"
 tags: ["Simulation", "NLP", "LLM", "Geospatial"]
 order: 4
 draft: false

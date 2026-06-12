@@ -1,6 +1,7 @@
 ---
 title: "Occupancy Prediction"
 summary: "Classifies daily booked, offline & vacant calendars of scraped Airbnbs — enabling accurate revenue projections."
+thumbnail: "/images/projects/occupancy-prediction.svg"
 tags: ["Time-Series", "Hierarchical Classification"]
 order: 1
 draft: false

@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img" aria-label="Occupancy prediction calendar: vacant weekdays, purple booked reservations shown as spanning bars that can continue across week rows, and rare orange offline days">
+    <style>
+        .day-num-on { fill: #ffffff; }
+        @media (prefers-color-scheme: light) {
+            .day-num-on { fill: #1e293b; }
+        }
+    </style>
+    <text x="61.5" y="36" font-family="&#39;Open Sans&#39;,system-ui,sans-serif" font-size="12.5" font-weight="700" letter-spacing="0.03em" fill="#94a3b8" text-anchor="middle">M</text>
+    <text x="107.5" y="36" font-family="&#39;Open Sans&#39;,system-ui,sans-serif" font-size="12.5" font-weight="700" letter-spacing="0.03em" fill="#94a3b8" text-anchor="middle">T</text>
+    <text x="153.5" y="36" font-family="&#39;Open Sans&#39;,system-ui,sans-serif" font-size="12.5" font-weight="700" letter-spacing="0.03em" fill="#94a3b8" text-anchor="middle">W</text>
+    <text x="199.5" y="36" font-family="&#39;Open Sans&#39;,system-ui,sans-serif" font-size="12.5" font-weight="700" letter-spacing="0.03em" fill="#94a3b8" text-anchor="middle">T</text>
+    <text x="245.5" y="36" font-family="&#39;Open Sans&#39;,system-ui,sans-serif" font-size="12.5" font-weight="700" letter-spacing="0.03em" fill="#94a3b8" text-anchor="middle">F</text>
+    <text x="291.5" y="36" font-family="&#39;Open Sans&#39;,system-ui,sans-serif" font-size="12.5" font-weight="700" letter-spacing="0.03em" fill="#7c8794" text-anchor="middle">S</text>
+    <text x="337.5" y="36" font-family="&#39;Open Sans&#39;,system-ui,sans-serif" font-size="12.5" font-weight="700" letter-spacing="0.03em" fill="#7c8794" text-anchor="middle">S</text>
+    <rect x="42" y="50" width="39" height="25" rx="6" fill="none" stroke="#94a3b8" stroke-width="1.4" opacity="0.22"></rect>
+    <rect x="88" y="50" width="39" height="25" rx="6" fill="none" stroke="#94a3b8" stroke-width="1.4" opacity="0.22"></rect>
+    <rect x="134" y="50" width="39" height="25" rx="6" fill="none" stroke="#94a3b8" stroke-width="1.4" opacity="0.22"></rect>
+    <rect x="180" y="50" width="39" height="25" rx="6" fill="none" stroke="#94a3b8" stroke-width="1.4" opacity="0.22"></rect>
+    <rect x="226" y="50" width="39" height="25" rx="6" fill="none" stroke="#94a3b8" stroke-width="1.4" opacity="0.22"></rect>
+    <rect x="272" y="50" width="39" height="25" rx="6" fill="none" stroke="#94a3b8" stroke-width="1.4" opacity="0.22"></rect>
+    <rect x="318" y="50" width="39" height="25" rx="6" fill="none" stroke="#94a3b8" stroke-width="1.4" opacity="0.22"></rect>
+    <rect x="42" y="83" width="39" height="25" rx="6" fill="none" stroke="#94a3b8" stroke-width="1.4" opacity="0.22"></rect>
+    <rect x="88" y="83" width="39" height="25" rx="6" fill="none" stroke="#94a3b8" stroke-width="1.4" opacity="0.22"></rect>
+    <rect x="134" y="83" width="39" height="25" rx="6" fill="none" stroke="#94a3b8" stroke-width="1.4" opacity="0.22"></rect>
+    <rect x="180" y="83" width="39" height="25" rx="6" fill="none" stroke="#94a3b8" stroke-width="1.4" opacity="0.22"></rect>
+    <rect x="226" y="83" width="39" height="25" rx="6" fill="none" stroke="#94a3b8" stroke-width="1.4" opacity="0.22"></rect>
+    <rect x="272" y="83" width="39" height="25" rx="6" fill="none" stroke="#94a3b8" stroke-width="1.4" opacity="0.22"></rect>
+    <rect x="318" y="83" width="39" height="25" rx="6" fill="none" stroke="#94a3b8" stroke-width="1.4" opacity="0.22"></rect>
+    <rect x="42" y="116" width="39" height="25" rx="6" fill="none" stroke="#94a3b8" stroke-width="1.4" opacity="0.22"></rect>
+    <rect x="88" y="116" width="39" height="25" rx="6" fill="none" stroke="#94a3b8" stroke-width="1.4" opacity="0.22"></rect>
+    <rect x="134" y="116" width="39" height="25" rx="6" fill="none" stroke="#94a3b8" stroke-width="1.4" opacity="0.22"></rect>
+    <rect x="180" y="116" width="39" height="25" rx="6" fill="none" stroke="#94a3b8" stroke-width="1.4" opacity="0.22"></rect>
+    <rect x="226" y="116" width="39" height="25" rx="6" fill="none" stroke="#94a3b8" stroke-width="1.4" opacity="0.22"></rect>
+    <rect x="272" y="116" width="39" height="25" rx="6" fill="none" stroke="#94a3b8" stroke-width="1.4" opacity="0.22"></rect>
+    <rect x="318" y="116" width="39" height="25" rx="6" fill="none" stroke="#94a3b8" stroke-width="1.4" opacity="0.22"></rect>
+    <rect x="42" y="149" width="39" height="25" rx="6" fill="none" stroke="#94a3b8" stroke-width="1.4" opacity="0.22"></rect>
+    <rect x="88" y="149" width="39" height="25" rx="6" fill="none" stroke="#94a3b8" stroke-width="1.4" opacity="0.22"></rect>
+    <rect x="134" y="149" width="39" height="25" rx="6" fill="none" stroke="#94a3b8" stroke-width="1.4" opacity="0.22"></rect>
+    <rect x="180" y="149" width="39" height="25" rx="6" fill="none" stroke="#94a3b8" stroke-width="1.4" opacity="0.22"></rect>
+    <rect x="226" y="149" width="39" height="25" rx="6" fill="none" stroke="#94a3b8" stroke-width="1.4" opacity="0.22"></rect>
+    <rect x="272" y="149" width="39" height="25" rx="6" fill="none" stroke="#94a3b8" stroke-width="1.4" opacity="0.22"></rect>
+    <rect x="318" y="149" width="39" height="25" rx="6" fill="none" stroke="#94a3b8" stroke-width="1.4" opacity="0.22"></rect>
+    <rect x="42" y="182" width="39" height="25" rx="6" fill="none" stroke="#94a3b8" stroke-width="1.4" opacity="0.22"></rect>
+    <rect x="88" y="182" width="39" height="25" rx="6" fill="none" stroke="#94a3b8" stroke-width="1.4" opacity="0.22"></rect>
+    <rect x="134" y="182" width="39" height="25" rx="6" fill="none" stroke="#94a3b8" stroke-width="1.4" opacity="0.22"></rect>
+    <rect x="227" y="51" width="129" height="23" rx="7" fill="#a78bfa" fill-opacity="0.22" stroke="#8b5cf6" stroke-width="1.5" stroke-opacity="0.65"></rect>
+    <path d="M280 84 L356 84 L356 107 L280 107 A7 7 0 0 1 273 100 L273 91 A7 7 0 0 1 280 84 Z" fill="#a78bfa" fill-opacity="0.22" stroke="#8b5cf6" stroke-width="1.5" stroke-opacity="0.65"></path>
+    <path d="M43 117 L73 117 A7 7 0 0 1 80 124 L80 133 A7 7 0 0 1 73 140 L43 140 Z" fill="#a78bfa" fill-opacity="0.22" stroke="#8b5cf6" stroke-width="1.5" stroke-opacity="0.65"></path>
+    <rect x="227" y="117" width="129" height="23" rx="7" fill="#a78bfa" fill-opacity="0.22" stroke="#8b5cf6" stroke-width="1.5" stroke-opacity="0.65"></rect>
+    <rect x="227" y="150" width="83" height="23" rx="7" fill="#a78bfa" fill-opacity="0.22" stroke="#8b5cf6" stroke-width="1.5" stroke-opacity="0.65"></rect>
+    <rect x="43" y="183" width="37" height="23" rx="7" fill="#a78bfa" fill-opacity="0.22" stroke="#8b5cf6" stroke-width="1.5" stroke-opacity="0.65"></rect>
+    <rect x="89" y="84" width="83" height="23" rx="7" fill="#fe6e00" fill-opacity="0.22" stroke="#fe6e00" stroke-width="1.5" stroke-opacity="0.65"></rect>
+    <rect x="319" y="150" width="37" height="23" rx="7" fill="#fe6e00" fill-opacity="0.22" stroke="#fe6e00" stroke-width="1.5" stroke-opacity="0.65"></rect>
+    <text x="61.5" y="66.5" font-family="&#39;Open Sans&#39;,system-ui,sans-serif" font-size="12.5" font-weight="400" fill="#8a93a0" text-anchor="middle">1</text>
+    <text x="107.5" y="66.5" font-family="&#39;Open Sans&#39;,system-ui,sans-serif" font-size="12.5" font-weight="400" fill="#8a93a0" text-anchor="middle">2</text>
+    <text x="153.5" y="66.5" font-family="&#39;Open Sans&#39;,system-ui,sans-serif" font-size="12.5" font-weight="400" fill="#8a93a0" text-anchor="middle">3</text>
+    <text x="199.5" y="66.5" font-family="&#39;Open Sans&#39;,system-ui,sans-serif" font-size="12.5" font-weight="400" fill="#8a93a0" text-anchor="middle">4</text>
+    <text x="245.5" y="66.5" font-family="&#39;Open Sans&#39;,system-ui,sans-serif" font-size="12.5" font-weight="600" class="day-num-on" text-anchor="middle">5</text>
+    <text x="291.5" y="66.5" font-family="&#39;Open Sans&#39;,system-ui,sans-serif" font-size="12.5" font-weight="600" class="day-num-on" text-anchor="middle">6</text>
+    <text x="337.5" y="66.5" font-family="&#39;Open Sans&#39;,system-ui,sans-serif" font-size="12.5" font-weight="600" class="day-num-on" text-anchor="middle">7</text>
+    <text x="61.5" y="99.5" font-family="&#39;Open Sans&#39;,system-ui,sans-serif" font-size="12.5" font-weight="400" fill="#8a93a0" text-anchor="middle">8</text>
+    <text x="107.5" y="99.5" font-family="&#39;Open Sans&#39;,system-ui,sans-serif" font-size="12.5" font-weight="600" class="day-num-on" text-anchor="middle">9</text>
+    <text x="153.5" y="99.5" font-family="&#39;Open Sans&#39;,system-ui,sans-serif" font-size="12.5" font-weight="600" class="day-num-on" text-anchor="middle">10</text>
+    <text x="199.5" y="99.5" font-family="&#39;Open Sans&#39;,system-ui,sans-serif" font-size="12.5" font-weight="400" fill="#8a93a0" text-anchor="middle">11</text>
+    <text x="245.5" y="99.5" font-family="&#39;Open Sans&#39;,system-ui,sans-serif" font-size="12.5" font-weight="400" fill="#8a93a0" text-anchor="middle">12</text>
+    <text x="291.5" y="99.5" font-family="&#39;Open Sans&#39;,system-ui,sans-serif" font-size="12.5" font-weight="600" class="day-num-on" text-anchor="middle">13</text>
+    <text x="337.5" y="99.5" font-family="&#39;Open Sans&#39;,system-ui,sans-serif" font-size="12.5" font-weight="600" class="day-num-on" text-anchor="middle">14</text>
+    <text x="61.5" y="132.5" font-family="&#39;Open Sans&#39;,system-ui,sans-serif" font-size="12.5" font-weight="600" class="day-num-on" text-anchor="middle">15</text>
+    <text x="107.5" y="132.5" font-family="&#39;Open Sans&#39;,system-ui,sans-serif" font-size="12.5" font-weight="400" fill="#8a93a0" text-anchor="middle">16</text>
+    <text x="153.5" y="132.5" font-family="&#39;Open Sans&#39;,system-ui,sans-serif" font-size="12.5" font-weight="400" fill="#8a93a0" text-anchor="middle">17</text>
+    <text x="199.5" y="132.5" font-family="&#39;Open Sans&#39;,system-ui,sans-serif" font-size="12.5" font-weight="400" fill="#8a93a0" text-anchor="middle">18</text>
+    <text x="245.5" y="132.5" font-family="&#39;Open Sans&#39;,system-ui,sans-serif" font-size="12.5" font-weight="600" class="day-num-on" text-anchor="middle">19</text>
+    <text x="291.5" y="132.5" font-family="&#39;Open Sans&#39;,system-ui,sans-serif" font-size="12.5" font-weight="600" class="day-num-on" text-anchor="middle">20</text>
+    <text x="337.5" y="132.5" font-family="&#39;Open Sans&#39;,system-ui,sans-serif" font-size="12.5" font-weight="600" class="day-num-on" text-anchor="middle">21</text>
+    <text x="61.5" y="165.5" font-family="&#39;Open Sans&#39;,system-ui,sans-serif" font-size="12.5" font-weight="400" fill="#8a93a0" text-anchor="middle">22</text>
+    <text x="107.5" y="165.5" font-family="&#39;Open Sans&#39;,system-ui,sans-serif" font-size="12.5" font-weight="400" fill="#8a93a0" text-anchor="middle">23</text>
+    <text x="153.5" y="165.5" font-family="&#39;Open Sans&#39;,system-ui,sans-serif" font-size="12.5" font-weight="400" fill="#8a93a0" text-anchor="middle">24</text>
+    <text x="199.5" y="165.5" font-family="&#39;Open Sans&#39;,system-ui,sans-serif" font-size="12.5" font-weight="400" fill="#8a93a0" text-anchor="middle">25</text>
+    <text x="245.5" y="165.5" font-family="&#39;Open Sans&#39;,system-ui,sans-serif" font-size="12.5" font-weight="600" class="day-num-on" text-anchor="middle">26</text>
+    <text x="291.5" y="165.5" font-family="&#39;Open Sans&#39;,system-ui,sans-serif" font-size="12.5" font-weight="600" class="day-num-on" text-anchor="middle">27</text>
+    <text x="337.5" y="165.5" font-family="&#39;Open Sans&#39;,system-ui,sans-serif" font-size="12.5" font-weight="600" class="day-num-on" text-anchor="middle">28</text>
+    <text x="61.5" y="198.5" font-family="&#39;Open Sans&#39;,system-ui,sans-serif" font-size="12.5" font-weight="600" class="day-num-on" text-anchor="middle">29</text>
+    <text x="107.5" y="198.5" font-family="&#39;Open Sans&#39;,system-ui,sans-serif" font-size="12.5" font-weight="400" fill="#8a93a0" text-anchor="middle">30</text>
+    <text x="153.5" y="198.5" font-family="&#39;Open Sans&#39;,system-ui,sans-serif" font-size="12.5" font-weight="400" fill="#8a93a0" text-anchor="middle">31</text>
+</svg>

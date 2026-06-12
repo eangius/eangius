@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img" aria-label="Safer routing on a city map: the blue safest route follows roads around the park while the red shortest route follows roads straight through the park">
+  
+    <rect x="66" y="66" width="38" height="26" rx="4" fill="#8a93a0" opacity="0.09"></rect>
+    <rect x="122" y="66" width="40" height="26" rx="4" fill="#8a93a0" opacity="0.09"></rect>
+    <rect x="182" y="66" width="38" height="26" rx="4" fill="#8a93a0" opacity="0.09"></rect>
+    <rect x="238" y="66" width="42" height="26" rx="4" fill="#8a93a0" opacity="0.09"></rect>
+    <rect x="298" y="66" width="38" height="26" rx="4" fill="#8a93a0" opacity="0.09"></rect>
+    <rect x="66" y="114" width="36" height="28" rx="4" fill="#8a93a0" opacity="0.09"></rect>
+    <rect x="66" y="160" width="38" height="26" rx="4" fill="#8a93a0" opacity="0.09"></rect>
+    <rect x="238" y="160" width="42" height="26" rx="4" fill="#8a93a0" opacity="0.09"></rect>
+    <rect x="298" y="160" width="38" height="26" rx="4" fill="#8a93a0" opacity="0.09"></rect>
+    <rect x="238" y="108" width="42" height="18" rx="4" fill="#8a93a0" opacity="0.09"></rect>
+  
+    <rect x="108" y="98" width="124" height="56" rx="11" fill="#22c55e" opacity="0.26"></rect>
+    <rect x="108" y="98" width="124" height="56" rx="11" fill="none" stroke="#16a34a" stroke-width="1.5" opacity="0.4"></rect>
+    <g fill="#16a34a" opacity="0.7"><circle cx="130" cy="116" r="5"></circle><circle cx="150" cy="140" r="5"></circle><circle cx="205" cy="118" r="5"></circle><circle cx="214" cy="140" r="5"></circle><circle cx="190" cy="118" r="5"></circle></g>
+    <circle cx="202" cy="134" r="7" fill="#7dd3fc" opacity="0.7"></circle>
+  
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M40 58 L360 58" stroke="#6b7682" stroke-width="10" opacity="0.42"></path>
+    <path d="M40 192 L360 192" stroke="#6b7682" stroke-width="10" opacity="0.42"></path>
+    <path d="M344 52 L344 200" stroke="#6b7682" stroke-width="10" opacity="0.42"></path>
+    <path d="M95 104 L300 104" stroke="#7c8794" stroke-width="7" opacity="0.4"></path>
+    <path d="M40 150 L320 150" stroke="#7c8794" stroke-width="7" opacity="0.4"></path>
+    <path d="M58 52 L58 200" stroke="#7c8794" stroke-width="7" opacity="0.4"></path>
+    <path d="M112 58 L112 192" stroke="#7c8794" stroke-width="7" opacity="0.4"></path>
+    <path d="M170 58 L170 200" stroke="#7c8794" stroke-width="7" opacity="0.4"></path>
+    <path d="M228 58 L228 192" stroke="#7c8794" stroke-width="7" opacity="0.4"></path>
+    <path d="M288 58 L288 150" stroke="#7c8794" stroke-width="7" opacity="0.4"></path>
+    <path d="M228 192 L288 150" stroke="#7c8794" stroke-width="7" opacity="0.4"></path>
+    <path d="M228 128 L288 128" stroke="#8893a0" stroke-width="4.5" opacity="0.38"></path>
+    <path d="M58 76 L112 76" stroke="#8893a0" stroke-width="4.5" opacity="0.38"></path>
+    <path d="M288 104 L344 104" stroke="#8893a0" stroke-width="4.5" opacity="0.38"></path>
+    <path d="M288 150 L304 182" stroke="#8893a0" stroke-width="4.5" opacity="0.38"></path>
+  </g>
+  
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M40 58 L360 58" stroke="#ccd3db" stroke-width="6.5" opacity="0.85"></path>
+    <path d="M40 192 L360 192" stroke="#ccd3db" stroke-width="6.5" opacity="0.85"></path>
+    <path d="M344 52 L344 200" stroke="#ccd3db" stroke-width="6.5" opacity="0.85"></path>
+    <path d="M95 104 L300 104" stroke="#c7ced6" stroke-width="4.5" opacity="0.82"></path>
+    <path d="M40 150 L320 150" stroke="#c7ced6" stroke-width="4.5" opacity="0.82"></path>
+    <path d="M58 52 L58 200" stroke="#c7ced6" stroke-width="4.5" opacity="0.82"></path>
+    <path d="M112 58 L112 192" stroke="#c7ced6" stroke-width="4.5" opacity="0.82"></path>
+    <path d="M170 58 L170 200" stroke="#c7ced6" stroke-width="4.5" opacity="0.82"></path>
+    <path d="M228 58 L228 192" stroke="#c7ced6" stroke-width="4.5" opacity="0.82"></path>
+    <path d="M288 58 L288 150" stroke="#c7ced6" stroke-width="4.5" opacity="0.82"></path>
+    <path d="M228 192 L288 150" stroke="#c7ced6" stroke-width="4.5" opacity="0.82"></path>
+    <path d="M228 128 L288 128" stroke="#c7ced6" stroke-width="2.6" opacity="0.78"></path>
+    <path d="M58 76 L112 76" stroke="#c7ced6" stroke-width="2.6" opacity="0.78"></path>
+    <path d="M288 104 L344 104" stroke="#c7ced6" stroke-width="2.6" opacity="0.78"></path>
+    <path d="M288 150 L304 182" stroke="#c7ced6" stroke-width="2.6" opacity="0.78"></path>
+  </g>
+  
+  <circle cx="288" cy="150" r="10" fill="none" stroke="#6b7682" stroke-width="7" opacity="0.4"></circle>
+  <circle cx="288" cy="150" r="10" fill="none" stroke="#ccd3db" stroke-width="4" opacity="0.85"></circle>
+  
+  <g fill="none" stroke="#f8fafc" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" opacity="0.85">
+    <path d="M58 192 L58 150 L170 150 L170 58 L344 58"></path>
+    <path d="M58 192 L344 192 L344 58"></path>
+  </g>
+  
+  <path d="M58 192 L58 150 L170 150 L170 58 L344 58" fill="none" stroke="#ef4444" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"></path>
+  
+  <path d="M58 192 L344 192 L344 58" fill="none" stroke="#3b82f6" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  
+  <circle cx="58" cy="192" r="8.5" fill="#fe6e00"></circle>
+  <circle cx="58" cy="192" r="3.2" fill="#ffffff"></circle>
+  <circle cx="344" cy="58" r="8.5" fill="none" stroke="#fe6e00" stroke-width="4"></circle>
+  <circle cx="344" cy="58" r="2.6" fill="#fe6e00"></circle>
+</svg>

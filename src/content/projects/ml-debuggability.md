@@ -1,7 +1,8 @@
 ---
 title: "ML Debuggability"
 summary: "Instruments tree-based models with learn-time metadata & run-time signals to diagnose why any prediction went wrong."
-tags: ["MLOps", "Explainability", "Tree-Based Models"]
+thumbnail: "/images/projects/ml-debuggability.svg"
+tags: ["MLOps", "Explainability", "Tree Models"]
 order: 6
 draft: false
 ---
