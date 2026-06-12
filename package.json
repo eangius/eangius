@@ -1,0 +1,31 @@
+{
+  "name": "eangius-portfolio",
+  "type": "module",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "predev": "node scripts/generate-favicon.mjs",
+    "dev": "astro dev",
+    "prebuild": "node scripts/generate-favicon.mjs",
+    "build": "astro build",
+    "postbuild": "pagefind --site dist",
+    "preview": "astro preview",
+    "astro": "astro",
+    "check": "astro check"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.7.3",
+    "@fontsource/open-sans": "^5.2.7",
+    "@tailwindcss/vite": "^4.3.0",
+    "astro": "^6.4.5",
+    "tailwindcss": "^4.3.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.9",
+    "@tailwindcss/typography": "^0.5.20",
+    "pagefind": "^1.5.2",
+    "typescript": "^6.0.3"
+  }
+}

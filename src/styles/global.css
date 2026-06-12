@@ -1,0 +1,59 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+/* Self-hosted Open Sans (matches the heading font used on the resume) */
+@import "@fontsource/open-sans/400.css";
+@import "@fontsource/open-sans/400-italic.css";
+@import "@fontsource/open-sans/600.css";
+@import "@fontsource/open-sans/700.css";
+
+/* Enable the `dark:` variant via a `.dark` class on <html> (toggled by ThemeToggle) */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Open Sans", system-ui, sans-serif;
+
+  /* Light theme — sampled from the resume (cornflower-blue accent, charcoal text) */
+  --color-bg: #ffffff;
+  --color-surface: #f3f3f3;
+  --color-border: #e2e2e2;
+  --color-text: #404040;
+  --color-text-muted: #666666;
+  --color-text-subtle: #8a8a8a;
+  --color-accent: #6d9eeb;
+  --color-accent-hover: #4f7fd6;
+
+  /* Orange accent (matches bjornmelin.io's Data Science skill tags) */
+  --color-orange-500: #fe6e00;
+}
+
+/* Dark theme overrides — same accent, inverted neutrals with a deep navy "map" feel */
+.dark {
+  --color-bg: #0f1417;
+  --color-surface: #1a2126;
+  --color-border: #2a333a;
+  --color-text: #e8eaed;
+  --color-text-muted: #a8b2bc;
+  --color-text-subtle: #707b86;
+  --color-accent: #89b4f5;
+  --color-accent-hover: #aecbf8;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    /* Prevent transition flash when the theme class toggles on <html> */
+    color-scheme: light dark;
+  }
+
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-family: var(--font-sans);
+  }
+
+  ::selection {
+    background-color: var(--color-accent);
+    color: var(--color-bg);
+  }
+}

@@ -1,0 +1,55 @@
+---
+import { Image } from "astro:assets";
+import { useTranslations, getLocale } from "../../i18n/utils";
+import profileImage from "../../assets/images/profile.jpg";
+import { meetingUrl } from "../../data/links";
+
+const t = useTranslations(getLocale(Astro.currentLocale));
+---
+
+<section id="about" class="relative overflow-hidden border-b border-border">
+  {/* Subtle "mapping theme" backdrop — swap /images/topo-pattern.svg later */}
+  <div
+    class="pointer-events-none absolute inset-0 opacity-[0.06] dark:opacity-[0.08]"
+    style="background-image: url('/images/topo-pattern.svg'); background-repeat: repeat;"
+    aria-hidden="true"
+  >
+  </div>
+
+  <div
+    class="relative mx-auto flex max-w-5xl flex-col items-center gap-8 px-4 py-20 text-center sm:py-28 md:flex-row md:text-left"
+  >
+    <Image
+      src={profileImage}
+      alt={t("hero.name")}
+      width={160}
+      height={160}
+      loading="eager"
+      fetchpriority="high"
+      class="h-40 w-40 shrink-0 rounded-full object-cover"
+    />
+    <div>
+      <h1 class="text-4xl font-bold text-accent sm:text-5xl">
+        {t("hero.name")}
+      </h1>
+      <p class="mt-2 text-xl text-text-muted">{t("hero.title")}</p>
+
+      <div class="mt-6 flex flex-wrap justify-center gap-4 md:justify-start">
+        <a
+          href={meetingUrl}
+          target="_blank"
+          rel="noreferrer"
+          class="rounded-md bg-accent px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-accent-hover"
+        >
+          {t("hero.cta.contact")}
+        </a>
+        <a
+          href="#projects"
+          class="rounded-md border border-border px-5 py-2.5 text-sm font-semibold text-text transition-colors hover:border-accent hover:text-accent"
+        >
+          {t("hero.cta.projects")}
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

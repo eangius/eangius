@@ -1,0 +1,20 @@
+# build
+dist/
+.astro/
+public/*.ico
+
+# dependencies
+node_modules/
+
+# runtime
+*.log
+
+# environment
+.claude
+.env*
+
+# OS specifics
+.DS_Store
+
+# IDE specifics
+.idea/

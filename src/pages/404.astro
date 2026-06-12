@@ -1,0 +1,20 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { useTranslations, getLocale } from "../i18n/utils";
+
+const t = useTranslations(getLocale(Astro.currentLocale));
+---
+
+<BaseLayout title={t("404.title")}>
+  <section class="mx-auto flex max-w-xl flex-col items-center px-4 py-24 text-center">
+    <p class="text-sm font-semibold text-accent">404</p>
+    <h1 class="mt-2 text-3xl font-bold text-text sm:text-4xl">{t("404.title")}</h1>
+    <p class="mt-4 text-text-muted">{t("404.message")}</p>
+    <a
+      href="/"
+      class="mt-8 rounded-md bg-accent px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-accent-hover"
+    >
+      {t("404.cta")}
+    </a>
+  </section>
+</BaseLayout>
