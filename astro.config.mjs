@@ -7,7 +7,7 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
   // TODO: update once hosting is finalized (user/org page vs project page vs custom domain).
   site: 'https://eangius.github.io',
-  base: '/',
+  base: '/eangius/',
 
   i18n: {
     defaultLocale: 'en',
